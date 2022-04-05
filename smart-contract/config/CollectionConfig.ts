@@ -4,14 +4,14 @@ import * as Marketplaces from '../lib/Marketplaces';
 import whitelistAddresses from './whitelist.json';
 
 const CollectionConfig: CollectionConfigInterface = {
-  testnet: Networks.ethereumTestnet,
-  mainnet: Networks.ethereumMainnet,
+  testnet: Networks.polygonTestnet,
+  mainnet: Networks.polygonMainnet,
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'YourNftToken',
-  tokenName: 'My NFT Token',
-  tokenSymbol: 'MNT',
+  contractName: 'AlchemicalArtistry',
+  tokenName: 'Alchemical Artistry',
+  tokenSymbol: 'ALART',
   hiddenMetadataUri: 'ipfs://__CID__/hidden.json',
   maxSupply: 10000,
   whitelistSale: {
@@ -27,7 +27,7 @@ const CollectionConfig: CollectionConfigInterface = {
     maxMintAmountPerTx: 5,
   },
   contractAddress: null,
-  marketplaceIdentifier: 'my-nft-token',
+  marketplaceIdentifier: 'alchemical-artistry',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };

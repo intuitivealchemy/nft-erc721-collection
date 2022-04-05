@@ -1,0 +1,5 @@
+tasks:
+  - init: |
+      cd minting-dapp/ && yarn && cd ../smart-contract/ && yarn
+    command: |
+      echo 'TODO: start app'

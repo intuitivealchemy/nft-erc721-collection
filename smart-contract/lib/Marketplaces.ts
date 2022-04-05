@@ -1,4 +1,4 @@
-import MarketplaceConfigInterface from './MarketplaceConfigInterface';
+import MarketplaceConfigInterface from "./MarketplaceConfigInterface";
 
 export const openSea: MarketplaceConfigInterface = {
   name: 'OpenSea',
